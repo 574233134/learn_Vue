@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="app">{{message}}</div>
+<ol>
+
+    <li><a href="dynamicComponents.html" target="_blank">动态组件</a></li>
+    <li><a href="animated/vueinandoutanimated.html" target="_blank">进入/离开&列表过渡</a></li>
+    <li><a href="animated/vuestateanimated.html" target="_blank">状态过渡</a></li>
+    <li><a href="todolist.html" target="_blank">待办列表</a></li>
+    <li><a href="list.html" target="_blank">表格操作</a></li>
+</ol>
+</body>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Vue 能力梳理!'
+        }
+    })
+</script>
+</html>
